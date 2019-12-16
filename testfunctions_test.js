@@ -17,4 +17,5 @@ t.assertNotEquals({x:1}, {x:1,y:2});
 t.assertNotEquals({x:1,y:2}, {x:1});
 t.assertNotEquals([[1], {x:1}], [[1], {x:2}]);
 
+
 t.printTestsStats();
